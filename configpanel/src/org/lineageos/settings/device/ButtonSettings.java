@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.cyanogenmod.settings.device;
+package org.lineageos.settings.device;
 
 import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 
-import com.cyanogenmod.settings.device.utils.Constants;
-import com.cyanogenmod.settings.device.utils.FileUtils;
-import com.cyanogenmod.settings.device.utils.NodePreferenceActivity;
+import org.lineageos.settings.device.utils.Constants;
+import org.lineageos.internal.util.ScreenType;
+import org.lineageos.settings.device.utils.NodePreferenceActivity;
 
 public class ButtonSettings extends NodePreferenceActivity {
     @Override
